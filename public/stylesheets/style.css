@@ -1,0 +1,98 @@
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 150%;
+  background-color: #00adbc;
+  color: #fff;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+#auth {
+  background-color: rgb(118, 101, 160);
+  position: absolute;
+  top: 25px;
+  right: 45px;
+  border: 1px solid gray;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: "Gotham 4r", sans-serif, sans-serif;
+  font-weight: normal;
+  background-color: #F2F2F2;
+  font-weight: normal;
+  margin-top: 0;
+  color: #7665a0
+
+}
+
+a {
+  color: #00B7FF;
+}
+
+.nameList {
+  width: 66%;
+  margin-left: 19%;
+  font-weight: bold;
+}
+
+form {
+  margin-top: 30px;
+  background-color: #e7e9ea;
+  border: 1px solid #babbbb;
+  padding: 0.01em 16px;
+  border-radius: 16px;
+}
+
+input {
+  padding: 6px;
+  padding-left: 17px;
+  border-radius: 50px;
+  margin: 8px;
+  color: black;
+  width: -webkit-fill-available;
+}
+
+button {
+  border: 1px solid #ffa400;
+  background-color: #ffa400;
+  padding: 7px 10px 7px 6px;
+  color: #fff;
+  font-size: large;
+  min-width: 96px;
+  margin: 5px;
+  line-height: 20px;
+  border-radius: 4px;
+}
+
+#GetHelpButton {
+  margin-right: 0 !important;
+  margin-left:auto !important;
+
+}
+
+#quickstart-sign-in {
+  float: right;
+}
+
+#Welcome {
+  padding: 5px;
+}
+
+.glyphicon-ok {
+  color: #00cc00;
+  cursor: pointer;
+  transition: 0.3s ease;
+  opacity: .95;
+}
+
+.glyphicon-ok:hover {
+  transform: scale(2, 2); 
+  opacity: 1;
+}
